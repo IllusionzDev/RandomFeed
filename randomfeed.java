@@ -16,7 +16,7 @@ import java.util.UUID;
 
 public final class randomfeed extends JavaPlugin {
     public static randomfeed plugin;
-    private static HashMap<UUID, Long> cooldowns = Maps.newHashMap();
+    private static Map<UUID, Long> cooldowns = Maps.newHashMap();
 
     @Override
     public void onEnable() {
